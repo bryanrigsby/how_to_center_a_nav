@@ -1,16 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-
-#heroIcon {
-    float: left;
-}
-
+/* this is the nav wrapper around the hero icon, the nav items, and the shopping cart */
 .nav {
     display: flex;
     justify-content: space-between;
 }
 
+
+/* this is the ul surrounding the nav items  */
 .navItems {
     display: flex;
     width: 100%;
@@ -18,6 +13,12 @@
     list-style: none;
 }
 
+/* makes sure hero icon stays on the left  */
+#heroIcon {
+    float: left;
+}
+
+/* makes sure shopping cart stays on the left  */
 #shoppingCart {
     float: right;
 }
